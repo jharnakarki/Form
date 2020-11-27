@@ -1,0 +1,35 @@
+.required:after {
+    content:" * required";
+    color: red;
+  }
+  h1{
+  	color: #B0FFAD;
+  	margin-left: 60px;
+  	margin-top:10px;
+  	margin-bottom: 30px;
+  	background-color: #77DD77;
+  	
+  	}
+  .container{
+  	border-style: none;
+  	height: 100%;
+  	display:center;
+  	margin: 30px auto;
+  	background-color:white;
+  	width: 400px
+  	
+  }
+  .form-control{
+  	width:300px !important;
+  	height:12% !important;
+  	margin-top:-10px;
+  	border-color: #D3D3D3;
+  }
+
+  #submit{
+	border: 3px solid green;
+	color: green;
+	margin-left: 100px;
+	margin-top:10px;
+	margin-bottom: 20px;
+  }

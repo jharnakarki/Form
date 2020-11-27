@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="style.css">
+     <script src='https://www.google.com/recaptcha/api.js'></script>
+	<title>Form</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Scholarship Form</h1>
+		<form action="">
+			<div class="form-group">
+				<label class="required" />
+				<input type="text" class="form-control" id="fullName" placeholder="Full Name" 
+				name="fullName" required>
+			</div>
+			<div class="form-group">
+				<label class="required" />
+     			<input type="text" class="form-control" id="contactNo" placeholder="Contact No." name="contactNo" required>
+   			</div>
+    		<div class="form-group">
+    			<label class="required" />
+      			<input type="email" class="form-control" id="emailId" placeholder="Email ID"
+      			 name="pwd" required>
+   			</div>
+   			<div class="form-group">
+     			<label for="district" class="required">District</label>
+      			<select class="form-control" id="district" placeholder="Choose District">
+       				<option>Choose District</option>
+       				<option>Kathmandu</option>
+        			<option>Lalitpur</option>
+        			<option>Bhaktapur</option>
+      			</select>
+      		</div>
+      		<div class="form-group">
+     			<label for="stream" class="required">Stream</label>
+      			<select class="form-control" id="district" placeholder="Choose Stream">
+       				<option>Choose Stream</option>
+       				<option>Commerce</option>
+        			<option>Medical</option>
+        			<option>Arts</option>
+      			</select>
+      		</div>
+      		<div class="form-group">
+     			<label for="college" class="required">College</label>
+      			<select class="form-control" id="college" placeholder="Choose College">
+       				<option>Choose College</option>
+       				<option>KMC</option>
+        			<option>Global</option>
+        			<option>Orchid</option>
+      			</select>
+      		</div>
+      		<div class="g-recaptcha" data-sitekey="6LfMz2EUAAAAANpK7eWaiCxYq6QcPH8_XvKdIRyK">
+      			
+      		</div>
+   			<button type="submit" id="submit"class="btn btn-default">Submit</button>
+		</form>
+
+	</div>
+
+
+</body>
+</html>
